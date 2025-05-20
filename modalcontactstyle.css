@@ -1,0 +1,298 @@
+
+/* Header background styling */
+.contact-title-bg {
+    width: auto;
+    margin: 10px 0;
+    margin-bottom: 42px;
+    margin-top: 35px;
+    background-color: #a0a0a0;
+    line-height: 0.5;
+    background-color: rgba(0, 0, 0, 1);
+    border: 3px solid #ffffff;
+    border-radius: 29px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+
+.contact-modal-content {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    /*   background-image: url('Images/Header4.jpg');
+    background-repeat: repeat;
+    background-size: 550px;*/
+    overflow-y: auto;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-left: 19px;
+    padding: 1000px;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-close {
+    border: 3px solid #ffffff;
+    border-radius: 39px;
+    width: 100%;
+    background-color: #a0a0a0;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+
+.contact-description-bg {
+    border: 3px solid #ffffff;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: -2px;
+    margin-top: -19px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+.phone-description-bg {
+    border: 3px solid #ffffff;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: -2px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 8px 33px rgba(255, 255, 255, 0.3);
+}
+
+.contact-text {
+    font-size:13px;
+}
+
+.contact-icon {
+    margin: 2px; /* Espaçamento entre os ícones */
+    padding-top:18px;
+}
+
+    .contact-icon img {
+        width: 100%; /* Faz com que os ícones ocupem toda a largura disponível */
+        max-width: 43px; /* Define a largura máxima dos ícones */
+        height: auto;
+    }
+
+/* Responsiveness for smaller screens */
+@media (max-width: 678px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+       .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 70%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+}
+
+/* Responsiveness for smaller screens */
+@media (min-width: 678px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+    
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 40%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+ 
+    .contact-close {
+        margin-bottom: 6px;
+    }
+}
+
+
+
+/* Responsiveness for medium screens */
+@media (min-width: 923px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 27%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+}
+
+
+/* Responsiveness for medium screens */
+@media (min-width: 1324px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 26%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+}
+
+/* Responsiveness for medium screens */
+@media (min-width: 1524px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 18%;
+        max-height: 90%;
+        text-align: center;
+        padding: 1000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+}
+
+
+/* Responsiveness for medium screens */
+@media (min-width: 1724px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 16%;
+        max-height: 90%;
+        text-align: center;
+        padding: 3000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+
+    .contact-text {
+        font-size: 17px;
+    }
+
+}
+
+
+
+/* Responsiveness for medium screens */
+@media (min-width: 2025px) {
+
+    .contact-title-bg {
+        border-radius: 19px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-right: -4.5px; /* Ajuste a quantidade de pixels conforme necessário */
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    .contact-modal-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        width: 14%;
+        max-height: 90%;
+        text-align: center;
+        padding: 3000px;
+    }
+
+    .contact-close {
+        margin-bottom: 6px;
+    }
+
+    .contact-text {
+        font-size: 17px;
+    }
+}
+

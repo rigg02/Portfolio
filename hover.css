@@ -1,0 +1,49 @@
+/* Apply filter effect on hover for specific elements */
+.quit:hover img,
+.contact:hover img,
+.device:hover img,
+.linkedin:hover img,
+.instagram:hover img,
+.cv:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* Hover effect for social icons */
+.header-image:hover {
+    transform: scale(1.06);
+}
+/* Styling for contact icons */
+.header-image {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for social icons */
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.stack-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Styling for contact icons */
+.stack-icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Styling for contact icons */
+.contact-icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+    /* Hover effect for contact icons */
+    .contact-icon:hover {
+        transform: scale(1.2);
+    }
+
+/* Hover effect for project images */
+.project:hover img {
+    transform: scale(1.05);
+}

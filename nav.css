@@ -1,0 +1,50 @@
+.nav-container {
+    padding-right: 19px;
+    padding-top: 3px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Adiciona centralização na direção principal (horizontal) */
+}
+
+    nav a {
+        font-size:13px;
+        color: white;
+        text-decoration: none;
+        padding: 14px;
+        margin-right: -10px;
+        font-weight: bold;
+        transition: color 0.3s;
+        transition: transform 0.2s ease-in-out;
+    }
+        nav a:not(:last-child)::after {
+            content: "";
+            display: inline-block;
+            width: 1px; /* Largura do risquinho horizontal */
+            height: 10px; /* Altura do risquinho horizontal */
+            background-color: white; /* Cor do risquinho horizontal */
+            margin-left: 15px; /* Espaçamento entre o item e o risquinho horizontal */
+        }
+
+        nav a:hover {
+            color: #FEFCFF;
+            transform: scale(1.08);
+        }
+
+section {
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 2400px) {
+
+    .nav-container {
+        margin-top:60px;
+        
+    }
+}
+

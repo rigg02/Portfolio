@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigg Dev GameDev Portfolio</title>
+    <link rel="icon" href="Icos/Gamepad.ico" type="image/x-icon">
+    <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="modalprojectstyle.css">
+    <link rel="stylesheet" href="modalaboutstyle.css">
+    <link rel="stylesheet" href="modademoreelstyle.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="divider.css">
+</head>
+
+<body>
+
+    <!-- Scripts -->
+    <script src="Script/header.js"></script>
+    <script src="Script/overlay.js"></script>
+    <script src="Script/modalproject.js"></script>
+    <script src="Script/project.js"></script>
+    <script src="Script/paralax.js"></script>
+
+    <!-- Initial overlay -->
+    <div id="overlay">
+
+        <!-- Header -->
+        <header class="parallax">
+            <div class="header-bg">
+
+                <!-- Profile Image -->
+                <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile2.jpeg')"
+                    ontouchend="returnHeaderImage('Images/Profile.png')">
+                    <img class="header-image" id="header-image" src="Images/Profile2.jpeg" alt="Your Photo"
+                        onmouseover="changeHeaderImage('Images/Profile2.jpeg')"
+                        onmouseout="returnHeaderImage('Images/Profile2.jpeg')">
+                </div>
+                <h1 style="font-size: 25px; margin-top: 6px">Rigg Dev</h1>
+                <p style="font-size: 19px; margin-top: -15px">Game Developer</p>
+
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/riggdev/" target="_blank"
+                        class="social-icon linkedin">
+                        <img src="Images/Linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://itch.io/profile/jerryrigg" target="_blank" class="social-icon itch"
+                        style="margin-left: 6px">
+                        <img src="Images/Itch.png" alt="Itch.io">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1fy25qX9Jwh71ZAIsK4gxMOFo4a5p_VDZ/view?usp=sharing"
+                        target="_blank" class="social-icon cv" style="margin-left: 6px">
+                        <img src="Images/CV.png" alt="CV">
+                    </a>
+                </div>
+
+                <!-- Nav Bar -->
+                <div class="nav-container">
+                    <nav>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
+                        <a href="https://www.linkedin.com/in/riggdev/" target="_blank">CONTACT</a>
+                        <a href="https://drive.google.com/file/d/1fy25qX9Jwh71ZAIsK4gxMOFo4a5p_VDZ/view?usp=sharing" target="_blank">MY CV</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
+
+        <!-- Projects -->
+        <section id="projects" class="projects-paralax">
+
+
+            <!-- Project 1 -->
+
+
+
+
+            <div class="project" ontouchstart="changeImage('project1', 'Gifs/DD-GIF.gif')"
+            ontouchend="returnImage('project1', 'Images/DD.png')">
+            <img src="Images/DD.png" id="project1" onclick="openModal('project1')"
+                onmouseover="changeImage('project1', 'Gifs/DD-GIF.gif')"
+                onmouseout="returnImage('project1', 'Images/DD.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">UNITY</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">2D</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Dungeon Diver</strong> - 2D rogue like dungeon crawler.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Mechanics Programming</strong></li>
+                    <li><strong>Enemy AI Programming</strong></li>
+                    <li><strong>Game Design</strong></li>
+                    <li><strong>UI Design</strong></li>
+                    <li><strong>Level Design</strong></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project" ontouchstart="changeImage('project2', 'Gifs/BB-GIF.gif')"
+            ontouchend="returnImage('project2', 'Images/BB.png')">
+            <img src="Images/BB.png" id="project2" onclick="openModal('project2')"
+                onmouseover="changeImage('project2', 'Gifs/BB-GIF.gif')"
+                onmouseout="returnImage('project2', 'Images/BB.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">UNITY</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">2D</span>
+                    <span class="tag">GAMEJAM</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Bullet Bros</strong> - 2D Couch Multiplayer with guns, with multiple playable characters.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Mechanic Programming</strong></li>
+                    <li><strong>Destructable Environment</strong></li>
+                    <li><strong>Gun Mechanic</strong></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project" ontouchstart="changeImage('project3', 'Gifs/GD-GIF.gif')"
+            ontouchend="returnImage('project3', 'Images/GD.png')">
+            <img src="Images/GD.png" id="project3" onclick="openModal('project3')"
+                onmouseover="changeImage('project3', 'Gifs/GD-GIF.gif')"
+                onmouseout="returnImage('project3', 'Images/GD.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">CONSTRUCT</span>
+                    <span class="tag">2D</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Grave Buster</strong> - Stop zombies from getting to the treasure with your sniper.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Design</strong></li>
+                    <li><strong>Construct Modules</strong></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project" ontouchstart="changeImage('project4', 'Gifs/G-GIF.gif')"
+            ontouchend="returnImage('project4', 'Images/G.png')">
+            <img src="Images/G.png" id="project4" onclick="openModal('project4')"
+                onmouseover="changeImage('project4', 'Gifs/G-GIF.gif')"
+                onmouseout="returnImage('project4', 'Images/G.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">UNITY</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">3D</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Golfin</strong> - 3D mini golf game with simple physics based mechanics.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Mechanics Programming</strong></li>
+                    <li><strong>Implementation</strong></li>
+                    <li><strong>Game Design</strong></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project" ontouchstart="changeImage('project5', 'Gifs/BS-GIF.gif')"
+            ontouchend="returnImage('project5', 'Images/BS.png')">
+            <img src="Images/BS.png" id="project5" onclick="openModal('project5')"
+                onmouseover="changeImage('project5', 'Gifs/BS-GIF.gif')"
+                onmouseout="returnImage('project5', 'Images/BS.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">UNITY</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">2D</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Bomb Survivor</strong> - Hypercasual 2D game with the goal to survive for long period of time.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Flow Programming</strong></li>
+                    <li><strong>Level Design</strong></li>
+                    <li><strong>Enemy AI</strong></li>
+                    <li><strong>Game Mechanics</strong></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project" ontouchstart="changeImage('project6', 'Gifs/CR-GIF.gif')"
+            ontouchend="returnImage('project6', 'Images/CR.png')">
+            <img src="Images/CR.png" id="project6" onclick="openModal('project6')"
+                onmouseover="changeImage('project6', 'Gifs/CR-GIF.gif')"
+                onmouseout="returnImage('project6', 'Images/CR.png')">
+            <div class="project-content">
+                <p>
+                    <span class="tag">UNITY</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">3D</span>
+                </p>
+                <p style="font-size:18px">
+                    <strong>Car Racers</strong> - 3D Car racing game where you compete to reach the finish line.
+                </p>
+                <div class="contributions">
+                    <strong>CONTRIBUTIONS:</strong>
+                    <br></br>
+                    <li><strong>Game Flow Programming</strong></li>
+                    <li><strong>Game Mechanics</strong></li>
+                    <li><strong>Level Design</strong></li>
+                    <li><strong>Enemy AI</strong></li>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
+
+        <!-- Project information modal -->
+        <div id="myModal" class="modal">
+            <div id="modal-c" class="modal-content">
+                <div id="modalContent"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            Rigg Dev | Contacts and Social Media Accounts <a href="https://www.instagram.com/riggdev/">Instagram</a>,
+            <a href="https://www.linkedin.com/in/riggdev/">LinkedIn</a>.
+        </footer>
+
+    </div>
+
+    <!-- Smooth scroll script -->
+    <script src="Script/smoothscroll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+/* White divider below the header */
+.horizontal-divider {
+    height: 5px;
+    background-color: white;
+}

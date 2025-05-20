@@ -1,0 +1,144 @@
+/* Project Section Styles */
+section {
+/*    background-image: url('Images/always-grey.png');
+*/    background-repeat: repeat;
+    background-size: 45px;
+    background-color: #171319;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    padding-top: 33px;
+    margin-bottom: -10px;
+}
+
+body {
+    background-color: #28222C;
+}
+
+/* Individual Project Styles */
+.project {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: calc(21% - 1px);
+    height: auto;
+    margin: 2%;
+    box-sizing: border-box;
+    background-color: #674e75;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+    .project img {
+        cursor: pointer;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+        width: 95%;
+        height: auto;
+        display: block;
+        border: 5px solid #ffffff;
+        border-radius: 10px;
+        transition: transform 0.3s;
+        margin-left: 4px;
+    }
+
+/* Contributions Section Styles */
+.contributions {
+    text-align: left;
+}
+
+/* Project Content Styles */
+.project-content {
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+    .project-content p:first-child {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+/* Tag Styles */
+:root {
+    --tag-background-color: #3F1F51;
+}
+
+.tag {
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    background-color: var(--tag-background-color);
+    color: #ffffff;
+    border-radius: 13px;
+}
+
+.project-content .tag {
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 2000px) {
+
+    /* Project Section Styles */
+    section {
+        background-color: #171319;
+        padding: 205px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 90px;
+        padding-top: 33px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+
+    /* Project Section Styles */
+    section {
+        background-color: #171319;
+        padding: 395px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 90px;
+        padding-top: 33px;
+    }
+}
+
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+
+    .project {
+        width: calc(28% - 1px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .project {
+
+        width: calc(45% - 1px);
+    }
+    section {
+        background-color: #171319;
+        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 90px;
+        padding-top: 33px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 100%;
+    }
+
+   
+}
