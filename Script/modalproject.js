@@ -167,7 +167,7 @@ function getProjectContent(projectId) {
                             <div class="description-bg">
                                 <div class="project-description">
                                     <p>
-                                I’m a Game Programmer with a B.Tech in Computer Science (Games and Graphics) at Chandigarh University. With a solid foundation in C#, C++, and Unity, I specialize in 2D and 3D game development, gameplay mechanics, and enemy AI. I've worked on projects like Grave Shooter, Bullet Bros, and Dungeon Diver, and gained industry experience through internships at Redfaux Games and Wizveda Technologies. <br><br>
+                                I’m a Game Programmer with a B.Tech in Computer Science (Games and Graphics) at Chandigarh University. With a solid foundation in C#, C++, Lua and Unity, I specialize in 2D and 3D game development, gameplay mechanics, and enemy AI. I've worked on projects like Grave Shooter, Bullet Bros, and Dungeon Diver, and gained industry experience through internships at Redfaux Games and Wizveda Technologies. <br><br>
 
 Alongside development, I’ve contributed as a Graphics Head for IEEE CUSB and a designer for GDG Chandigarh, blending creativity with technical skills. I’m passionate about building engaging, interactive experiences and enjoy working in collaborative environments.                                    </p>
                                 </div>
@@ -189,6 +189,10 @@ Alongside development, I’ve contributed as a Graphics Head for IEEE CUSB and a
 
                                 <a target="_blank" class="stack-icon" style="margin-left: 6px">
                                     <img src="Images/construct3.png">
+                                </a>
+
+                                <a target="_blank" class="stack-icon" style="margin-left: 6px">
+                                    <img src="Images/Roblox.png">
                                 </a>
                             </div>
 
@@ -427,6 +431,70 @@ Welcome! This is my demo reel showcasing a selection of my game development proj
                             </div>
 `                   ;
             break;
+        case 'project7':
+            videoId = 'gEV03dndqpI';
+            projectContent = `
+                         <div class="title-bg">
+                                <h2 class="project-title">Karen Apocalypse</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video">
+                                <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>Join your friends and anhilate the other team in while using unique powers of karen or the arsenal of police.</p>
+                                </div>
+                            </div>
+
+         
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <a href="https://www.roblox.com/games/77118290010549/Karen-Apocalypse" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                    <img src="Images/Roblox.png" alt="Roblox">
+                                </a>                            
+                            </div>                
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'project8':
+            videoId = '7zh12TLLBrc';
+            projectContent = `
+                         <div class="title-bg">
+                                <h2 class="project-title">Twisty</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video">
+                                <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>Set out on an adventure to defeat the demons and save the princess with your power to spin.</p>
+                                </div>
+                            </div>
+
+         
+                            <div class="project-links">
+                                <h2>Links</h2>
+                                <a href="https://play.google.com/store/apps/details?id=com.wizvedatechnologies.twisty&hl=en_IN" target="_blank" class="social-icon device" style="margin-left: 6px">
+                                    <img src="Images/Play Store.png" alt="Play Store">
+                                </a>                           
+                            </div>                
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;    
     }
 
 
